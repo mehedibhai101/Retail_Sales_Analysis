@@ -15,6 +15,8 @@ https://github.com/user-attachments/assets/b5e7b6e6-ba27-400d-bbdd-a87f85b29755
 
 [The analytical calculations were performed using Microsoft Excel's Power Pivot and Pivot Table features.]
 
+**PowerQuery M Code regarding data preparation process of the sales table can be found [[here]](https://github.com/mehedibhai101/Retail_Sales_Analysis/blob/main/data_cleaning.m).**
+
 ---
 
 # 🏗️ Data Structure & Investigative Scope
