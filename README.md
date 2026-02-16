@@ -57,6 +57,8 @@ The Cafe Story is heavily dependent on **Coffee Beverages** for volume, but the 
 * **The Weekend Shift:** Sales data indicates a shift in behavior on **Saturdays and Sundays**. Average Order Value (AOV) tends to rise as customers switch from "functional" morning coffees to "social" brunch-style orders (more food, specialty drinks).
 * **Weekday Routine:** Weekday sales are consistent but rely heavily on single-item coffee transactions.
 
+<img width="1081" height="411" alt="Image" src="https://github.com/user-attachments/assets/54d794d7-6f63-48e0-af6d-dae0aeea18bf" />
+
 ---
 
 # 🚀 Strategic Recommendations
@@ -81,25 +83,11 @@ The Cafe Story is heavily dependent on **Coffee Beverages** for volume, but the 
 ```
 Retail_Sales_Analysis/
 │
-├── Dashboard/                            # Final visualization and reporting outputs
-│   ├── assets/                           # Visual elements used in reports (logos, icons, etc.)
-│   │   ├── Icons/                        # Collection of icons used in KPI Cards/Buttons
-│   │   ├── Images/                       # Images used in dashboard
-│   │   └── Theme.json                    # Custom Power BI color palette for dashboard
-│   ├── live_dashboard.md                 # Links to hosted Power BI Service report
-│   └── static_overview.pdf               # Exported PDF version of the final dashboard for quick viewing
-│
-├── Data Cleaning/                        # ETL process and Power Query transformations
-│   ├── calendar_table.m                  # M-script for generating a dynamic Calendar table
-│   └── sales_table.m                     # M-script for cleaning and transforming raw sales records
-│
-├── Dataset/                              # The data foundation of the project
-│   ├── entity_relationship_diagram.svg   # Visual map of table connections and cardinality
-│   └── Maria's Kitchen.csv               # The primary raw data source containing transaction history
-│
-├── DAX Calculations/                     # Business logic and analytical formulas
-│   ├── calculated_column.md              # Definitions for static row-level logic (e.g., hour buckets)
-│   └── measures.md                       # Dynamic aggregation formulas (e.g., Total Revenue, MoM Growth)
+├── sales_data.csv                        # The primary raw data source containing transaction history
+├── data_cleaning.m                       # M-script for cleaning and transforming raw sales records
+├── assets/                               # Visual elements used in reports (logos, icons, etc.)
+│   ├── Icons/                            # Collection of icons used in KPI Cards/Buttons
+│   └── Theme.pdf                         # Collection of hex color codes used in dashboard
 │
 ├── LICENSE                               # Legal terms for code and data usage
 └── README.md                             # Project background, summary and key insights
